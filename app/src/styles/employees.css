@@ -1,0 +1,54 @@
+body {
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1920px;
+    font-size: 20px;
+    background-color: #F9F8F9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+main {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+main form {
+    min-width: 100%;
+}
+
+main form button {
+    min-width: 120px;
+}
+
+main table {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+main table th {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+table {
+    width: 1200px;
+    height: 240px;
+    border: 2px solid #031a51;
+    padding: 12px;
+    text-align: left;
+    background-color: #f2f2f2
+}
+
+table td {
+    border: 1px solid #bfc0c0;
+}

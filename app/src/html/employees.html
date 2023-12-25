@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/employees.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="..\img\logo.jpg" alt="logo">
+                <p>CarFlow</p>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="../html/sales.html">Sales▾</a></li>
+                <li><a href="../html/clients.html">Clients▾</a></li>
+                <li><a href="../html/cars.html">Cars▾</a></li>
+                <li><a href="../html/reports.html">Reports▾</a></li>
+                <li><a href="../html/employees.html">Employees▾</a></li>
+                <li><a href="#">Logout(admin)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="employeeForm">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+            <label for="position">Position:</label>
+            <input type="text" id="position" name="position" required>
+
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" id="phoneNumber" name="phoneNumber" required>
+
+            <button type="button" onclick="submitEmployeeForm()">Add Employee</button>
+        </form>
+
+        <table id="timeManagerTable">
+            <thead>
+                <tr>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Здесь будут данные о времени прихода и ухода сотрудников -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <!-- Ссылка на документацию -->
+            <a href="../doc/TT_KorobkovDA_TRP-1-20.pdf" target="_blank">Technical Task</a>
+            <a href="../doc/TP_KorobkovDA_TRP-1-20.pdf" target="_blank">Technical Project</a>
+
+            <!-- Контакты и телефон поддержки -->
+            <div class="contact-info">
+                <p>Contact Support:</p>
+                <p>Phone: +7-999-888-77-66</p>
+                <p>Email: korobkov_d.a@mail.ru</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/employees.js"></script>
+</body>
+</html>
